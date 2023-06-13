@@ -1,0 +1,30 @@
+@import 'react-toastify/dist/ReactToastify.css';
+/* .card{
+    margin: 2% 20% 0 20%;
+    background-color: #fbfbfb;
+    padding: 40px 0 40px 0;
+} */
+input:focus{
+
+    outline: none;
+}
+/* h1{
+    color: black;
+} */
+input{
+    border-top-style:hidden;
+    border-right-style:hidden;
+    border-left-style:hidden;
+    /* border-bottom-style:hidden; */
+    border-bottom-color:black;
+    /* border-bottom: 1px; */
+}
+#button{
+    padding: 5px 67px;
+    border-radius: 50px;
+    /* background-color: #dddd; */
+    border-style:hidden;
+}
+#Date{
+    width: 185px;
+}
