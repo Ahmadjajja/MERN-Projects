@@ -1,0 +1,46 @@
+#container{
+    width: auto;
+    margin: 0 100px;
+    font-family: 'Abril Fatface', cursive;
+    /* border: 2px black solid; */
+}
+body {
+    background-image: url('./images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+#greet{ 
+    text-align: right;
+    background: mediumpurple;
+    color: white;
+    padding: 23px 12px;
+}
+/* .basicInfo{
+        border: red 3px solid;
+} */
+p{
+    padding: 18px;
+    background:rebeccapurple;
+    color: white;
+    width: auto;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Amatic SC', cursive;
+}
+.col1 {
+    /* width: 60%; */
+    border: 1px #ccc solid;
+    padding: 36px 9px;
+    /* float: left; */
+}
+.buttons {
+    /* width: 35%; */
+    /* float: right; */
+    border: 1px #ccc solid;
+}
+button{
+        width: 94%;
+        padding: 13px;
+        margin: 11px;
+        font-family: 'Abril Fatface', cursive;
+}

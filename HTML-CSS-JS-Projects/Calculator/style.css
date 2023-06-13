@@ -1,0 +1,56 @@
+body{
+    margin:0 auto;
+    /* background: red; */
+}
+.container {
+    text-align: center;
+    margin-top: 23px;
+}
+#backspace {
+    height: 68px;
+    width: 80px;
+    position: relative;
+    top: 25px;
+}
+.button3{
+    color: red;
+}
+#result{
+    color: rgb(13, 255, 13);
+}
+h1 {
+    font-size: 2em;
+    font-family: 'Moo Lah Lah', cursive;
+    color: floralwhite;
+}
+table{
+    margin: auto;
+}
+input{
+    font-size: 34px;
+    border: 3px solid #d1d7d4;
+    border-radius: 25px;
+    height: 69px;
+    color: darkolivegreen;
+    font-family: initial;
+    width: 225px;
+    margin-left: 0px;
+}
+
+element.style {
+}
+button {
+    font-size: 33px;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    background: #043013;
+    width: 77px;
+    height: 48px;
+    border-radius: 20px;
+}
+.calculator {
+    display: inline-block;
+    background-color: #d3e2d8;
+    border-radius: 20px;
+    padding: 10px;
+}

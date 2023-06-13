@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header#navbar {
+    z-index: 1000;
+}
+
+main {
+    /* min-height: 100vh; */
+    flex: 1 0 auto;
+}
+
+.footer {
+    height: 40px;
+}
+
+.footer p,
+.footer .links {
+    line-height: 40px;
+}
+
+#section1 {
+    background: #0575E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    clip-path: polygon(0 0, 0% 20%, 0 60%, 0 86%, 51% 100%, 100% 88%, 100% 71%, 100% 68%, 100% 0, 80% 0, 45% 0);
+        min-height: 100vh;
+}
+
+#section3 {
+    clip-path: polygon(50% 6%, 100% 0, 100% 60%, 100% 100%, 50% 100%, 0 100%, 0 0);
+}
+
+.box {
+    min-height: 300px;
+}
+
+.icons {
+    background: #0575E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    clip-path: circle(50% at 50% 50%);
+}
+
+.importantBox {
+    min-height: 450px;
+}
+
+/* .links:hover{
+    text-decoration:line-through     green;
+} */
+#section5 {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    clip-path: polygon(0 0, 50% 7%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0% 80%, 0% 20%);
+
+}

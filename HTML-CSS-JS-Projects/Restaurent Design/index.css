@@ -1,0 +1,69 @@
+#logo{
+    font-family: "Sofia", sans-serif;
+}
+ul{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#333333;
+    overflow:hidden;
+    /* display: inline; */
+}
+li{
+    float: left;
+}
+li a{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+button{
+    background-color:#333333;
+    color: white;
+}
+#button{
+    color: white;
+    text-decoration: none;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div image{
+      width: 100%;
+      float: left;
+  }
+  body{
+      background-color: hotpink;
+      border: solid 5px black;
+  }
+  header{
+      background-color: lightseagreen;
+  }
+  footer{
+    background-color: lightseagreen;
+  }
+  .headings{
+      text-align: center;
+      border: solid 2px #A8A8AC;
+      background-color:forestgreen;
+      color: white;
+  }
+  table{
+      border-collapse: collapse;
+      width: 100%;
+      background-color:#333333 ;
+  }
+  th,td{
+      text-align: left;
+      padding: 8px;
+  }
+tr{
+    /* background-color: #F2F2F2; */
+    color: white;
+    border-bottom:solid 2px #DDDDDD;
+}

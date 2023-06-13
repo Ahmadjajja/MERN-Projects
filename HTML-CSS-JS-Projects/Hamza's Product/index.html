@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<div class="container-fluid">
+    <div id="container">
+        <div class="row"><div id="greet" class="col" style="text-align: center;">Hello,peeps!</div></div>
+        <!-- <div style="background-color: rgb(139, 8, 111); color: white;" class="row">
+            <div  class="col basicInfo">
+                <h1 >I Love You Because the entire universe conspired to help me find you</h1>
+            </div>
+        </div> -->
+        <div class="mainContainer">
+            <div class="row">
+                <div class=" col-lg-8 col1">
+                    <p id="result">Chat Will be display here</p>
+                    <!-- <input type="text" value="Output will be displayed here" id="result"> -->
+                </div>
+                <div class=" col-lg-4 buttons"> 
+                     <button id="list">Chat</button><br>
+                     <button id="AddUser">Send Message</button><br>
+                     <button id="DeleteUser">Delete Messages by their numbers</button><br>
+                     <!-- <button id="login">Login</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+</html>

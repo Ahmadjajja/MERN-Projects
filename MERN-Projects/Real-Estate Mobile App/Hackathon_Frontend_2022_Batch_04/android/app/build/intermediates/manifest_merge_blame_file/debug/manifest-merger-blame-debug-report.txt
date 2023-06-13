@@ -1,0 +1,118 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shoppingapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:6:5-64
+13-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:7:5-80
+14-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Ahmad Jajja\.gradle\caches\transforms-3\95e931fbbfdb29d8fe263063f71e1fc3\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Ahmad Jajja\.gradle\caches\transforms-3\95e931fbbfdb29d8fe263063f71e1fc3\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+16
+17    <application
+17-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:9:5-28:19
+18        android:name="com.shoppingapp.MainApplication"
+18-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:10:7-38
+19        android:allowBackup="false"
+19-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:14:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] C:\Users\Ahmad Jajja\.gradle\caches\transforms-3\b5a8e99dac667ebea08e9f9757d3b404\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:12:7-41
+23        android:label="@string/app_name"
+23-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:11:7-39
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:13:7-52
+25        android:theme="@style/AppTheme"
+25-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:15:7-38
+26        android:usesCleartextTraffic="true" >
+26-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\debug\AndroidManifest.xml:8:9-44
+27        <activity
+27-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\debug\AndroidManifest.xml:11:9-111
+28            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+28-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\debug\AndroidManifest.xml:11:19-83
+29            android:exported="false" />
+29-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\debug\AndroidManifest.xml:11:84-108
+30        <activity
+30-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:16:7-27:18
+31            android:name="com.shoppingapp.MainActivity"
+31-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:17:9-37
+32            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+32-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:19:9-118
+33            android:exported="true"
+33-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:22:9-32
+34            android:label="@string/app_name"
+34-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:18:9-41
+35            android:launchMode="singleTask"
+35-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:20:9-40
+36            android:windowSoftInputMode="adjustResize" >
+36-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:21:9-51
+37            <intent-filter>
+37-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:23:9-26:25
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:24:13-65
+38-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:24:21-62
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:25:13-73
+40-->D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\android\app\src\main\AndroidManifest.xml:25:23-70
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[:react-native-image-picker] D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+45            android:name="com.imagepicker.ImagePickerProvider"
+45-->[:react-native-image-picker] D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+46            android:authorities="com.shoppingapp.imagepickerprovider"
+46-->[:react-native-image-picker] D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
+47            android:exported="false"
+47-->[:react-native-image-picker] D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+48            android:grantUriPermissions="true" >
+48-->[:react-native-image-picker] D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+49            <meta-data
+49-->[:react-native-image-picker] D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:70
+50                android:name="android.support.FILE_PROVIDER_PATHS"
+50-->[:react-native-image-picker] D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+51                android:resource="@xml/imagepicker_provider_paths" />
+51-->[:react-native-image-picker] D:\PROGRAMMING\WEB 2.0\Hackathon 2022\Hackathon_Frontend_2022_Batch_04\node_modules\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-67
+52        </provider>
+53        <provider
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ahmad Jajja\.gradle\caches\transforms-3\31798a0ea3f25ea98e44c876b4851b08\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+54            android:name="androidx.startup.InitializationProvider"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ahmad Jajja\.gradle\caches\transforms-3\31798a0ea3f25ea98e44c876b4851b08\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+55            android:authorities="com.shoppingapp.androidx-startup"
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ahmad Jajja\.gradle\caches\transforms-3\31798a0ea3f25ea98e44c876b4851b08\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+56            android:exported="false" >
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ahmad Jajja\.gradle\caches\transforms-3\31798a0ea3f25ea98e44c876b4851b08\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+57            <meta-data
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ahmad Jajja\.gradle\caches\transforms-3\31798a0ea3f25ea98e44c876b4851b08\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ahmad Jajja\.gradle\caches\transforms-3\31798a0ea3f25ea98e44c876b4851b08\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+59                android:value="androidx.startup" />
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ahmad Jajja\.gradle\caches\transforms-3\31798a0ea3f25ea98e44c876b4851b08\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+60            <meta-data
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ahmad Jajja\.gradle\caches\transforms-3\39517e1b011367242185b54afc0b3c9e\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ahmad Jajja\.gradle\caches\transforms-3\39517e1b011367242185b54afc0b3c9e\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+62                android:value="androidx.startup" />
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ahmad Jajja\.gradle\caches\transforms-3\39517e1b011367242185b54afc0b3c9e\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+63        </provider>
+64    </application>
+65
+66</manifest>

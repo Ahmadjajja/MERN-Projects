@@ -1,0 +1,17 @@
+.createAccount{
+    label{
+        font-size:13px;
+    }
+    input,select{
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        // border-bottom: #ccc solid 2px;
+    }
+    .icon{
+        position: relative;
+        left: 15px;
+        bottom: 2px;
+        font-size: 42px;
+    }
+}

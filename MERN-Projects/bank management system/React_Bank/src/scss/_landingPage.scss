@@ -1,0 +1,21 @@
+.landingPage{
+    // position: sticky;
+    // top: 0px;
+    background-image: url('../assets/landingPageBg3.jpg');
+    background-repeat: no-repeat;
+    // background-attachment: fixed;   
+    background-size: cover;
+    // background-size: 100%;
+    min-height: calc(100vh - 136px);
+    // height: auto;
+    .container{
+        position: relative;
+    }
+    .bonusOffer{
+        background-color: rgba(0, 70, 107, 0.8);
+        position: absolute;
+        top: 90px;
+        // min-width: 40%;
+        // min-width: 60vh;
+    }
+}

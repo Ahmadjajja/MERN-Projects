@@ -1,0 +1,33 @@
+.dashboardPage {
+    p.TC,p.TD{
+    display: inline;
+    background-color: #ccc;
+    padding: 0 7px;
+    border-radius: 10px;
+    font-size: 10px;
+    }
+    @media screen and (min-width: 480px) {
+        p{
+            display: inline;
+            background-color: #ccc;
+            padding: 0 7px;
+            border-radius: 10px;
+            font-size: 7px;
+            }
+      }
+}
+
+// header.header {
+//     position: fixed;
+//     top: 0;
+//     width: 100%;
+//     z-index: 100;
+// }
+
+.pro-sidebar {
+    position: fixed !important;
+    top: 40px;
+    // .pro-sidebar-inner{
+    //     background-color: aqua !important;
+    // }
+}

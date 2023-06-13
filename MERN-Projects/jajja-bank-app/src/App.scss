@@ -1,0 +1,36 @@
+@import "./scss/bootstrap";
+@import "./scss/header";
+@import "./scss/footer";
+@import "./scss/landingPage";
+@import "./scss/login";
+@import "./scss/signup";
+@import "./scss/forgotPassword";
+@import "./scss/dashboard";
+@import '~react-pro-sidebar/dist/scss/styles.scss';
+@import "./scss/createAccount";
+@import "./scss/viewAccount";
+@import "./scss/viewTransactions";
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+// @import "./scss/dashboard"
+// #root{
+//     display: flex;
+//     flex-direction: column;
+//     min-height: 100vh;
+// }
+// main{
+//     flex: 1 0 auto;
+// }
+
+// #root{
+//     display: flex;
+//     min-height: 100vh;
+//     flex-direction: column;
+// }
+
+
+// main
+// {
+//     flex: 1 0 auto;
+// }

@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>E-commerce Bootstrap 5 tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark shadow">
+        <div class="container d-flex justify-content-between align-item-center">
+            <a href="index.html" class="navbar-brand h1">
+                <span class="text-danger h4">Wine</span>
+                <span class="text-white h4">Shop</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle = "collapse" data-bs-target ="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+            <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+                <div class="flex-fill mx-xl-5 mb-2">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link btn-outline-danger rounded-pill px-3">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link btn-outline-danger rounded-pill px-3">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link btn-outline-danger rounded-pill px-3">ShopNow</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link btn-outline-danger rounded-pill px-3">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link btn-outline-danger rounded-pill px-3">Special offers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <a href="" class="nav-link">
+                        <i class="fa fa-facebook text-danger"></i>
+                    </a>
+                    <a href="" class="nav-link">
+                        <i class="fa fa-instagram text-danger"></i>
+                    </a>
+                    <a href="" class="nav-link">
+                        <i class="fa fa-youtube text-danger"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Header -->
+    <!-- Hero Section -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/jonathan-gaitan-4Ivk6V6QBZI-unsplash.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>eagle hawk</h5>
+                    <p>Wolf Blass Eaglehawk Shiraz is a smooth, approachable red wine with bright, fruity aromas of blackcurrant, dark cherry and a touch of vanillin oak.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/pexels-brett-jordan-2308939.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>marlborough</h5>
+                    <p>Marlborough Wine Region Marlborough put New Zealand on the international wine stage with its exquisite Sauvignon Blanc in the 1980s.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/pexels-brett-jordan-2897305.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Shiraz</h5>
+                    <p>Shiraz wine refers separately to two different well-known wines. Historically, the name refers to the wine produced around the city of Shiraz in Persia/Iran. In the current era, "Shiraz" is an alternative name for the Syrah grape, mostly used in Australia and South Africa.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- End of Hero Section -->
+    <!-- Category Section -->
+    <Section class="container-fluid py-5 cate-bg">
+        <div class="row text-center pt-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="text-white">Category of The month</h1>
+                <p class="text-white">
+                    The Wine-of-the-Month Club is the “founding” Club … where it all started and our namesake. <br>The wines of the months are:
+                        <li>
+                            <ol>Chardonnay</ol>
+                            <ol>Pinot Noir</ol>
+                            <ol>Cabernet Sauvignon</ol>
+                        </li>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 p-5 mt-1">
+                <a href="">
+                    <img src="./images/img 1.jpg" class="rounded-circle img-fluid border" alt="">
+                </a>
+                <h5 class="text-center text-white mt-3 mb-3">Chardonnay</h5>
+                <p class="text-center">
+                    <a href="#" class="btn btn-danger rounded-pill">Go shop</a>
+                </p>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-1">
+                <a href="">
+                    <img src="./images/img2.jpg" class="rounded-circle img-fluid border" alt="">
+                </a>
+                <h5 class="text-center text-white mt-3 mb-3">Pinot Noir</h5>
+                <p class="text-center">
+                    <a href="#" class="btn btn-danger rounded-pill">Go shop</a>
+                </p>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-1">
+                <a href="">
+                    <img src="./images/img3.jpg" class="rounded-circle img-fluid border" alt="">
+                </a>
+                <h5 class="text-center text-white mt-3 mb-3">Cabernet Sauvignon</h5>
+                <p class="text-center">
+                    <a href="#" class="btn btn-danger rounded-pill">Go shop</a>
+                </p>
+            </div>
+        </div>
+    </Section>
+    <!-- End of the Category Section -->
+    <!-- Shop Now -->
+    <section class="py-0 pb-6 background" id="collections">
+        <div class="container">
+            <div class="row h-100">
+                <div class="col-lg-7 mt-7">
+                    <h5 class="fs-3 fs-lg-5 lh-sm mb-0 text-uppercase text-white">Shop Now</h5>
+                </div>
+                <div class="col-12">
+                    <nav>
+                        <div class="nav nav-tabs wine-tabs mb-4 justify-content-end" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-latest-tab" data-bs-toggle="tab"data-bs-target="#nav-latest" type="button"role="tab"aria-controls="nav-latest"aria-selected="true">Latest</button>
+                            <button class="nav-link" id="nav-popular-tab" data-bs-toggle="tab"data-bs-target="#nav-popular" type="button"role="tab"aria-controls="nav-popular"aria-selected="false">Popular</button>
+                        </div>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tabe-pane fade show active" id="nav-latest" role="tabpanel" aria-labelledby="nav-latest-tab">
+                                <div class="carousel slide" id="carouselLatest"data-bs-ride="carousal-inner">
+                                    <div class="carousel-item active" data-bs-interval="10000">
+                                        <div class="row h-100 align-items-center">
+                                            <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                                <div class="card bg-black text-white p-6 pb-8">
+                                                    <img src="./images/img5.jpg" class="card-img" alt="...">
+                                                    <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                                        <h6 class="text-danger btn btn-outline-light rounded-pill">$7000</h6>
+                                                        <h4 class="text-danger">Bordeaux</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ------------ -->
+                                            <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                                <div class="card bg-black text-white p-6 pb-8">
+                                                    <img src="./images/img4.jpg" class="card-img" alt="...">
+                                                    <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                                        <h6 class="text-danger btn btn-outline-light rounded-pill">$5000</h6>
+                                                        <h4 class="text-danger">Cline</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- --------- -->
+                                            <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                                <div class="card bg-black text-white p-6 pb-8">
+                                                    <img src="./images/img6.jpg" class="card-img" alt="...">
+                                                    <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                                        <h6 class="text-danger btn btn-outline-light rounded-pill">$9000</h6>
+                                                        <h4 class="text-danger">Cotes de Nuits</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ------------ -->
+                                        </div>
+                                    </div>
+                                    <!-- ----------- -->
+                                    <div class="carousel-item" data-bs-interval="5000">
+                                        <div class="row h-100 align-items-center">
+                                            <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                                <div class="card bg-black text-white p-6 pb-8">
+                                                    <img src="./images/pexels-darina-belonogova-8789667.jpg" class="card-img" alt="...">
+                                                    <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                                        <h6 class="text-danger btn btn-outline-light rounded-pill">$7000</h6>
+                                                        <h4 class="text-danger">Bordeaux</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ------------ -->
+                                            <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                                <div class="card bg-black text-white p-6 pb-8">
+                                                    <img src="./images/pexels-kenneth-2912108.jpg" class="card-img" alt="...">
+                                                    <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                                        <h6 class="text-danger btn btn-outline-light rounded-pill">$5000</h6>
+                                                        <h4 class="text-danger">Cline</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- --------- -->
+                                            <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                                <div class="card bg-black text-white p-6 pb-8">
+                                                    <img src="./images/pexels-ylanite-koppens-2820146.jpg" class="card-img" alt="...">
+                                                    <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                                        <h6 class="text-danger btn btn-outline-light rounded-pill">$9000</h6>
+                                                        <h4 class="text-danger">Cotes de Nuits</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ------------ -->
+                                        </div>
+                                    </div>
+                                    <!-- ----------- -->
+                                    <div class="row pt-3">
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselLatest" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselLatest" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <!-- <div class="row pt-3">
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPopular" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPopular" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="tabe-pane fade" id="nav-popular" role="tabpanel" aria-labelledby="nav-popular-tab">
+                                <div class="carousel slide" id="carouselPopular" data-bs-ride="carousel">
+                                    <div class="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="10000">
+                                                    <div class="row h-100 align-items-center">
+                                                        <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                                            <div class="card bg-black text-white p-6 pb-8">
+                                                                <img class="card-img" src="./images/sangria-senorial-wqHvU5Mi5U8-unsplash.jpg" alt="...">
+                                                                <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                                                    <h6 class="text-danger btn btn-outline-light rounded-pill">$120.00</h6>
+                                                                    <h4 class="text-danger">Even keel</h4>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- ------- -->
+                                                        <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                                            <div class="card bg-black text-white p-6 pb-8">
+                                                                <img class="card-img" src="./images/pexels-ylanite-koppens-2820146.jpg" alt="...">
+                                                                <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                                                    <h6 class="text-danger btn btn-outline-light rounded-pill">$140.00</h6>
+                                                                    <h4 class="text-danger">Blush</h4>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- ------- -->
+                                                        <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                                            <div class="card bg-black text-white p-6 pb-8">
+                                                                <img class="card-img" src="./images/jonathan-gaitan-4Ivk6V6QBZI-unsplash.jpg" alt="...">
+                                                                <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                                                    <h6 class="text-danger btn btn-outline-light rounded-pill">$210.00</h6>
+                                                                    <h4 class="text-danger">Cask 23</h4>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- ------- -->
+                                                    </div>
+                                                </div>
+                                                <!-- ---------- -->
+                                                <div class="carousel-item">
+                                                    <div class="row h-100 align-items-center">
+                                                        <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                                            <div class="card bg-black text-white p-6 pb-8">
+                                                                <img class="card-img" src="./images/sangria-senorial-wqHvU5Mi5U8-unsplash.jpg" alt="...">
+                                                                <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                                                    <h6 class="text-danger btn btn-outline-light rounded-pill">$120.00</h6>
+                                                                    <h4 class="text-danger">Even keel</h4>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- ------- -->
+                                                        <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                                            <div class="card bg-black text-white p-6 pb-8">
+                                                                <img class="card-img" src="./images/pexels-ylanite-koppens-2820146.jpg" alt="...">
+                                                                <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                                                    <h6 class="text-danger btn btn-outline-light rounded-pill">$140.00</h6>
+                                                                    <h4 class="text-danger">Blush</h4>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- ------- -->
+                                                        <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                                            <div class="card bg-black text-white p-6 pb-8">
+                                                                <img class="card-img" src="./images/pexels-mwabonje-1694853.jpg" alt="...">
+                                                                <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                                                    <h6 class="text-danger btn btn-outline-light rounded-pill">$210.00</h6>
+                                                                    <h4 class="text-danger">Cask 23</h4>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- ------- -->
+                                                    </div>
+                                                </div>
+                                                <!-- ---------- -->
+                                                <div class="row pt-3">
+                                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPopular" data-bs-slide="next">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Previous</span>
+                                                    </button>
+                                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPopular" data-bs-slide="prev">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </nav>
+                    <!-- <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                      </ul> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Shop Now -->
+    <!--services Section-->
+    <div class="container-fluid background py-5">
+        <div class="row justify-content-center">
+            <div class=" col- xxl-10">
+                <div class="card card-span shadow"style="border-radius:35px;">
+                    <div class="card-body py-5">
+                        <div class="row justify-content-evenly">
+                            <div class="col-md-3">
+                                <div class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between">
+                                    <i class="fa fa-tags fa-3x text-danger"></i>
+                                    <div class="d-flex d-lg-block d-xl-flex flex-center">
+                                        <h2 class="fw-bolder text-1000 mb-0 text-danger">Daily Discounts</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 hr-vertical">
+                                <div class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between">
+                                    <i class="fa fa-phone-alt fa-3x text-danger"></i>
+                                    <div class="d-flex d-lg-block d-xl-flex flex-center">
+                                        <h2 class="fw-bolder text-1000 mb-0 text-danger">Available on Call</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <!----->
+                            <div class="col-md-3 hr-vertical">
+                                <div class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between">
+                                    <i class="fa fa-truck fa-3x text-danger"></i>
+                                    <div class="d-flex d-lg-block d-xl-flex flex-center">
+                                        <h2 class="fw-bolder text-1000 mb-0 text-danger">Quick Delivery</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <!---End of th services Section-->
+    <!---Offers Section-->
+    <section class="background">
+        <div class="container">
+            <div class="row h-100">
+                <div class=" col-lg-7 mx-auto text-center mb-6">
+                    <h2 class="fw-bold fs-3 fs-lg-5 lh-sm mb-3 mt-5 text-white">Today's Offer</h2>
+                </div>
+            </div>
+        <div class="row gx-2">
+        <div class="col-sm-6 col-md-4 col-lg-4 h-100 mb-5">
+            <div class="card card-span h-100 text-white rounded-3">
+                <img class="img-fluid rounded-3 h-100" src="./images/pexels-brett-jordan-2308939.jpg"alt="..">
+                <div class="card-img-overlay ps-0">
+                    <span class="badge bg-danger p-2 ms-3">
+                        <i class="fa fa-tag ,s-2 fs-0"></i>
+                        <span class="fs-0">20% Off</span>
+                    </span>
+                </div>
+            </div>    
+        </div>
+        <!------>
+        <div class="col-sm-6 col-md-4 col-lg-4 h-100 mb-5">
+            <div class="card card-span h-100 text-white rounded-3">
+                <img class="img-fluid rounded-3 h-100" src="./images/pexels-brett-jordan-2897305.jpg"alt="..">
+                <div class="card-img-overlay ps-0">
+                    <span class="badge bg-danger p-2 ms-3">
+                        <i class="fa fa-tag ,s-2 fs-0"></i>
+                        <span class="fs-0">20% Off</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!------>
+        <div class="col-sm-6 col-md-4 col-lg-4 h-100 mb-5">
+            <div class="card card-span h-100 text-white rounded-3">
+                <img class="img-fluid rounded-3 h-100" src="./images/pexels-brett-jordan-917831.jpg"alt="..">
+                <div class="card-img-overlay ps-0">
+                    <span class="badge bg-danger p-2 ms-3">
+                        <i class="fa fa-tag ,s-2 fs-0"></i>
+                        <span class="fs-0">20% Off</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!------>
+        <!-- <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+            <div class="card card-span h-100 text-white rounded-3">
+                <img class="img-fluid rounded-3 h-100" src="./images/pexels-darina-belonogova-8789667.jpg"alt="..">
+                <div class="card-img-overlay ps-0">
+                    <span class="badge bg-danger p-2 ms-3">
+                        <i class="fa fa-tag ,s-2 fs-0"></i>
+                        <span class="fs-0">20% Off</span>
+                    </span>
+                </div>
+            </div>
+        </div> -->
+        <!------>
+        <!-- </div>
+        </div> -->
+    </section>
+    <!--End of the Offers section-->
+    <footer class="background pt-4">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="#">
+                        <!-- <i class="fa fa-wine-bottle fa-2x text-danger"></i> -->
+                        <span class="text-white h3">Wine</span>
+                        <span class="text-danger h3 semi-bold-600">Shop</span>
+                    </a>
+                    <p class="text-light my-lg-4 my-2">
+                        We are honored to have you as our guest
+and pleased to offer this guarantee: Every
+item we sell will give you complete satisfaction
+or you may return it within 30 days for your
+choice of a refund or store credit. Your
+happiness is our wish!
+                    </p>
+                    <ul class="list-inline footer-icons  light-300">
+                        <li class="list-inline-item m-0">
+                            <a class="text-light">
+                                <i class="fa fa-facebook-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light">
+                                <i class="fa fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-light light-300">Useful Links</h3>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class="fa fa-chevron-right"></i>
+                            <a class="text-decoration-none text-light"href="">Home</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class="fa fa-chevron-right"></i>
+                            <a class="text-decoration-none text-light"href="">Categories</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class="fa fa-chevron-right"></i>
+                            <a class="text-decoration-none text-light"href="">Services</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class="fa fa-chevron-right"></i>
+                            <a class="text-decoration-none text-light"href="">Shop Now</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class="fa fa-chevron-right"></i>
+                            <a class="text-decoration-none text-light"href="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">About Us</h2>
+                    <p class="text-white">We’re enthusiastic about wine, and know a large number of our clients feel a similar way. So we are focused on offering the country’s best wine determination, with an accentuation on fine wines. Our commonplace store conveys in excess of 8,000 distinct wines from each wine-delivering district on the planet.
+
+The common ‘Organization Name’ and More likewise conveys in excess of 2,500 lagers, from America’s most prominent brands to elusive microbrews and imports, and in excess of 3,000 distinct spirits in each style and value extend</p>
+                </div>
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">
+                        Contact Us
+                    </h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class="fa fa-phone-alt fa-2x"></i>
+                            <a class="text-decoration-none text-light py-1" href="">0341-9853167</a>
+                        </li>
+                        <li class="pb-2">
+                            <a class="text-decoration-none text-light py-1"href="">ahmadjajja86@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="w-100 bg-footer py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-light light-300">
+                            &copy; 2022 Copyright: Ahmad ajja
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-light light-300">
+                            Designed by 
+                            <a class="text-decoration-none text-light">
+                                <strong>Ahmad Jajja</strong>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  -->
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "_id": {
+      "$oid": "630b506954f8cf732bbdbee7"
+    },
+    "name": "Apartment"
+  },
+  {
+    "_id": {
+      "$oid": "630b506943f164527fb149fd"
+    },
+    "name": "Challet"
+  },
+  {
+    "_id":{
+      "$oid": "630b5069b6365a86f1f4cae8"
+    },
+    "name": "Twinhouse"
+  },
+  {
+    "_id": {
+      "$oid": "630b50695b5ef3c45bd80458"
+    },
+    "name": "Studio"
+  },
+  {
+    "_id": {
+      "$oid": "630b5069ccc47279d81bcf98"
+    },
+    "name": "villa"
+  }
+]

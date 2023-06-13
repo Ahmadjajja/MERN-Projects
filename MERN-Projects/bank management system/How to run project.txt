@@ -1,0 +1,2 @@
+1)run in terminal: npm i                             (for installing packages)
+2)run in terminal: npm start                         (for running project)

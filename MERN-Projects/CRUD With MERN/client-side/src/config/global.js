@@ -1,0 +1,1 @@
+window.URL = "https://jajja-first-ecommerce.herokuapp.com"

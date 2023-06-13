@@ -1,0 +1,53 @@
+/* #addOrderWholePage{
+  background-image: url(../assets/bg.jpg);
+  background-size: cover;
+  height: 100%;
+  /* overflow: hidden; */
+/* } */
+/* .card {
+  margin: 2% 10% 0 10%;
+  background-color: #fbfbfb;
+  padding: 40px 0 40px 0;
+} */
+.card{
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.ListContainer {
+  overflow-y: scroll;
+  height: 500px;
+ }
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+input:focus{
+
+  outline: none;
+}
+/* h1{
+  color: black;
+} */
+input{
+  border-top-style:hidden;
+  border-right-style:hidden;
+  border-left-style:hidden;
+  /* border-bottom-style:hidden; */
+  border-bottom-color:black;
+  /* border-bottom: 1px; */
+}
+#button{
+  padding: 5px 67px;
+  border-radius: 50px;
+  background-color: #dddd;
+  border-style:hidden;
+}
+#Date{
+  width: 185px;
+}
